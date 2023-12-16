@@ -5,7 +5,7 @@
 shopping_list = []
 price_list = []
 list_size = int(input("How many things do you plan on having on your shopping list?"))
-
+# This function merges two lists. Used to combine shopping_list and price_list into a single list.
 def merge(list1, list2):
     """Simple function that merges two lists. Combines list1 and list2 into a list of tuples.""" 
     merged_list = [(list1[i], list2[i]) for i in range(0, len(list1))]

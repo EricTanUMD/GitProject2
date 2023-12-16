@@ -1,0 +1,4 @@
+This is a simple shopping list program.
+The user is prompted on how big their list will be. The user will then individually enter the item names and prices of each item.
+The user is then asked if they wish to export the their list onto a text file and if they wish the clear the list. If they wish to export
+to a new file, it creates a new file called shoppingList.txt and saves it into their current working directory.
